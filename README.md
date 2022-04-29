@@ -5,7 +5,7 @@ Answers to program questions from TypeShukatsu to participate in the event.(Date
 ## 問題
 ### 解答必須
 
-問題１：FizzBuzz問題（[解答用テンプレート](https://github.com/typeshukatsu/20220611-event-questions/tree/main/template/Q1_FizzBuzz）
+問題１：FizzBuzz問題（[解答用テンプレート](https://github.com/typeshukatsu/20220611-event-questions/tree/main/template/Q1_FizzBuzz)）
 - 1から100までの数字を出力してください
 - 3の倍数のときは数字の代わりにFizzと出力してください
 - 5の倍数のときは数字の代わりにBuzzと出力してください
@@ -35,7 +35,7 @@ Fizz
 Buzz
 ```
 
-問題２：探索アルゴリズムの実装（[解答用テンプレート](https://github.com/typeshukatsu/20220611-event-questions/tree/main/template/Q2_Search）
+問題２：探索アルゴリズムの実装（[解答用テンプレート](https://github.com/typeshukatsu/20220611-event-questions/tree/main/template/Q2_Search)）
 - 探索対象の配列から、探索する数値のindexを返却するメソッドを実装してください
 - 探索対象の配列は「1つ以上の要素を持つ、昇順にソートされた重複のない整数の配列」です
 - ただし、以下の条件を満たすアルゴリズムを用いて実装してください
@@ -58,7 +58,7 @@ Buzz
 
 
 ### チャレンジ問題
-問題３：ソートアルゴリズムの実装（[解答用テンプレート](https://github.com/typeshukatsu/20220611-event-questions/tree/main/template/Q3_Sort）
+問題３：ソートアルゴリズムの実装（[解答用テンプレート](https://github.com/typeshukatsu/20220611-event-questions/tree/main/template/Q3_Sort)）
 - 整数の配列を昇順にソートするアルゴリズムを実装してください
 - ソート対象の配列は「1つ以上の要素を持つ、ランダムに並べられた重複のない整数の配列」です
 - ただし、以下の条件を満たすアルゴリズムを用いて実装してください
