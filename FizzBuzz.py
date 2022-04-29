@@ -14,7 +14,6 @@ for num in range(1, 101):
         string="Fizz"
     else:
         string=str(num)
-
     # ここまで記述
 
     print(string)
