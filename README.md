@@ -5,7 +5,7 @@ Answers to program questions from TypeShukatsu to participate in the event.(Date
 ## 問題
 ### 解答必須
 
-問題１：FizzBuzz問題（[解答用テンプレート](/template/Q1_FizzBuzz)）
+問題１：FizzBuzz問題（[解答用テンプレート](https://github.com/typeshukatsu/20220611-event-questions/tree/main/template/Q1_FizzBuzz）
 - 1から100までの数字を出力してください
 - 3の倍数のときは数字の代わりにFizzと出力してください
 - 5の倍数のときは数字の代わりにBuzzと出力してください
@@ -35,7 +35,7 @@ Fizz
 Buzz
 ```
 
-問題２：探索アルゴリズムの実装（[解答用テンプレート](/template/Q2_Search)）
+問題２：探索アルゴリズムの実装（[解答用テンプレート](https://github.com/typeshukatsu/20220611-event-questions/tree/main/template/Q2_Search）
 - 探索対象の配列から、探索する数値のindexを返却するメソッドを実装してください
 - 探索対象の配列は「1つ以上の要素を持つ、昇順にソートされた重複のない整数の配列」です
 - ただし、以下の条件を満たすアルゴリズムを用いて実装してください
@@ -54,11 +54,11 @@ Buzz
 
 処理の参考イメージ  
 
-![探索アルゴリズム](search.jpg)
+![探索アルゴリズム](https://github.com/typeshukatsu/20220611-event-questions/blob/main/search.jpg)
 
 
 ### チャレンジ問題
-問題３：ソートアルゴリズムの実装（[解答用テンプレート](/template/Q3_Sort)）
+問題３：ソートアルゴリズムの実装（[解答用テンプレート](https://github.com/typeshukatsu/20220611-event-questions/tree/main/template/Q3_Sort）
 - 整数の配列を昇順にソートするアルゴリズムを実装してください
 - ソート対象の配列は「1つ以上の要素を持つ、ランダムに並べられた重複のない整数の配列」です
 - ただし、以下の条件を満たすアルゴリズムを用いて実装してください
@@ -66,3 +66,10 @@ Buzz
     - 先頭から末端に向かって、基準値以上の値の探索、逆方向から基準値の値未満の探索をし、見つかったらそれらの値同士を交換します
     - 先頭からの探索と、末端からの探索がぶつかった時点で探索を終了し、データを二つ（基準値以上のグループ、基準値未満のグループ）に分けます
     - 分けられたそれぞれのグループで、同様の処理を再帰的に繰り返し、交換する部分がなくなるまで処理を続けます
+
+※　先述の通り、問題３に関しては採点基準の1 ~ 4のルールを満たしていなくても  
+　　部分点が獲得できるので是非チャレンジしてみてください。  
+
+処理の参考イメージ  
+
+![ソートアルゴリズム](https://github.com/typeshukatsu/20220611-event-questions/blob/main/sort.jpg)
