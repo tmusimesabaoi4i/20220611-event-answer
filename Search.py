@@ -18,7 +18,7 @@ def serch_index(sorted_array, target_number):
         if number_of_array % 2 == 0: # even
             EVENdivided2 = int(number_of_array/2)
             median_number = ( sorted_array[start_idx+EVENdivided2] + \
-                              sorted_array[start_idx+EVENdivided2-1] )/2 # calculate the median
+                              sorted_array[start_idx+EVENdivided2-1] )/2 # calculate the (Virtually) median
             if target_number < median_number: # explore the previous array
                 end_idx = start_idx + EVENdivided2 - 1 # refresh index
             elif median_number < target_number: # explore the backward array
